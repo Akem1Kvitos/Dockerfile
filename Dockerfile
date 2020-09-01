@@ -6,7 +6,7 @@ RUN apt -y update && apt install -y wget && apt -y install nginx
 RUN wget  https://raw.githubusercontent.com/Akem1Kvitos/Index/master/index.html
 RUN mv index.html  /var/www/html/index.html 
 
-EXPOSE 213
+EXPOSE 232
 
 
 CMD ["nginx", "-g", "daemon off;"]
